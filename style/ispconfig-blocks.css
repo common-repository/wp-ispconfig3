@@ -1,0 +1,35 @@
+.ispconfig-block-inline {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.ispconfig-block-info {
+    font-size: 80%;
+}
+
+.ispconfig-block-field {
+    display: inline-block;
+    width: 370px;
+    padding: .5em;
+    margin-bottom: 5px;
+    background: #f3f4f5;
+    vertical-align: top;
+    border: 1px solid rgb(185, 185, 185);
+}
+
+.ispconfig-block-field .components-base-control__label {
+    display: block;
+}
+
+.ispconfig-block-action {
+    display: block;
+    margin-right: 10px;
+}
+
+.ispconfig-block-field:nth-child(odd) {
+    margin-right: 5px;
+}
+
+.ispconfig-block-field .components-base-control {
+    margin-bottom: 0px !important;
+}
